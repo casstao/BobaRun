@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Weather View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="WeatherViewController" customModule="Boba_Run" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <userGuides>
+                            <userLayoutGuide location="188" affinity="minX"/>
+                        </userGuides>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bobaback5" translatesAutoresizingMaskIntoConstraints="NO" id="Zkz-Jg-89Z">
+                                <rect key="frame" x="28" y="-38" width="320" height="675"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="675" id="6PM-Wi-RHZ"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="675" id="qcP-aQ-nFa"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Boba Run" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZW-EY-EFB">
+                                <rect key="frame" x="31" y="74" width="313" height="67"/>
+                                <color key="tintColor" red="0.044183128240000001" green="0.044183128240000001" blue="0.044183128240000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="65"/>
+                                <color key="textColor" red="0.99772495250000004" green="0.98747696350000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="shadowColor" red="0.50746941869227224" green="0.49423439423281934" blue="0.51899587563451777" alpha="0.58468000856164382" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="3" height="2"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fON-Ap-g6N">
+                                <rect key="frame" x="90" y="553" width="194" height="51"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="51" id="ITi-f0-OhF"/>
+                                    <constraint firstAttribute="height" constant="51" id="QYL-Eb-H6m"/>
+                                    <constraint firstAttribute="width" constant="194" id="bdg-sG-Qc5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="17"/>
+                                <state key="normal" title="Take me there ">
+                                    <color key="titleColor" red="0.5144325622" green="0.78031115259999995" blue="0.79953748629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="AppleMapsPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kEB-ik-lNB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bFp-F6-3M7">
+                                <rect key="frame" x="117" y="307" width="140" height="49"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="BvB-4j-vls"/>
+                                    <constraint firstAttribute="width" constant="140" id="xj4-DS-vs3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="17"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Give Me Boba">
+                                    <color key="titleColor" red="0.51372549019607838" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="randomButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4zo-qs-5wG"/>
+                                </connections>
+                            </button>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zvU-MF-AqP">
+                                <rect key="frame" x="84" y="393" width="207" height="48"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="JmV-LD-Qfv">
+                                    <rect key="frame" x="0.0" y="0.0" width="207" height="48"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gn6-2Q-xjk">
+                                            <rect key="frame" x="0.0" y="8" width="207" height="21"/>
+                                            <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="t15-Pq-Bpm"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lek-kt-lhr">
+                                            <rect key="frame" x="104" y="35" width="0.0" height="9"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="9" id="bQZ-vr-fio"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="7"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Gn6-2Q-xjk" firstAttribute="leading" secondItem="JmV-LD-Qfv" secondAttribute="leading" id="6pl-h3-h5G"/>
+                                        <constraint firstItem="Gn6-2Q-xjk" firstAttribute="top" secondItem="JmV-LD-Qfv" secondAttribute="topMargin" id="7Ww-5f-KK8"/>
+                                        <constraint firstAttribute="trailing" secondItem="Gn6-2Q-xjk" secondAttribute="trailing" id="Qdk-JX-bhC"/>
+                                        <constraint firstItem="Lek-kt-lhr" firstAttribute="top" secondItem="Gn6-2Q-xjk" secondAttribute="bottom" constant="6" id="cSn-me-E7i"/>
+                                        <constraint firstItem="Gn6-2Q-xjk" firstAttribute="centerX" secondItem="Lek-kt-lhr" secondAttribute="centerX" id="f1Z-5D-4ib"/>
+                                    </constraints>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="wU6-kV-bn1"/>
+                                </constraints>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.51372549019607838" green="0.81568627450980391" blue="0.87450980392156863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="XZW-EY-EFB" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="15" id="0W3-yR-OjD"/>
+                            <constraint firstItem="8b2-ns-Joa" firstAttribute="bottom" secondItem="Zkz-Jg-89Z" secondAttribute="bottom" constant="30" id="2fw-DA-BxT"/>
+                            <constraint firstItem="Zkz-Jg-89Z" firstAttribute="leading" secondItem="8b2-ns-Joa" secondAttribute="leading" constant="28" id="5oK-Ua-PFa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zvU-MF-AqP" secondAttribute="trailing" constant="68" id="6n4-vN-kIQ"/>
+                            <constraint firstItem="8b2-ns-Joa" firstAttribute="trailing" secondItem="Zkz-Jg-89Z" secondAttribute="trailing" constant="27" id="D8n-uw-u3V"/>
+                            <constraint firstItem="bFp-F6-3M7" firstAttribute="centerX" secondItem="zvU-MF-AqP" secondAttribute="centerX" constant="-0.5" id="QoO-Nc-uOw"/>
+                            <constraint firstItem="XZW-EY-EFB" firstAttribute="top" secondItem="8b2-ns-Joa" secondAttribute="top" constant="54" id="TVg-6T-H3G"/>
+                            <constraint firstItem="8b2-ns-Joa" firstAttribute="bottom" secondItem="fON-Ap-g6N" secondAttribute="bottom" constant="63" id="VZ3-M1-5if"/>
+                            <constraint firstItem="zvU-MF-AqP" firstAttribute="top" secondItem="bFp-F6-3M7" secondAttribute="bottom" constant="37" id="cF8-xt-Z5f"/>
+                            <constraint firstItem="XZW-EY-EFB" firstAttribute="centerX" secondItem="8b2-ns-Joa" secondAttribute="centerX" id="dVZ-dK-qGs"/>
+                            <constraint firstItem="fON-Ap-g6N" firstAttribute="centerX" secondItem="8b2-ns-Joa" secondAttribute="centerX" constant="-0.5" id="mwv-V0-2Dk"/>
+                            <constraint firstItem="zvU-MF-AqP" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="68" id="rwS-pr-8dN"/>
+                            <constraint firstAttribute="bottom" secondItem="zvU-MF-AqP" secondAttribute="bottom" constant="226" id="uwc-pU-xSA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8b2-ns-Joa"/>
+                    </view>
+                    <connections>
+                        <outlet property="Rating" destination="Lek-kt-lhr" id="ge4-mX-svg"/>
+                        <outlet property="blurEffect" destination="zvU-MF-AqP" id="SWI-Cw-zJq"/>
+                        <outlet property="bobaRunTitle" destination="XZW-EY-EFB" id="z4F-UC-rgP"/>
+                        <outlet property="button" destination="fON-Ap-g6N" id="pZ2-X5-kvV"/>
+                        <outlet property="button1Constraint" destination="QoO-Nc-uOw" id="yDS-fp-45N"/>
+                        <outlet property="button2Constraint" destination="mwv-V0-2Dk" id="03M-En-Xzg"/>
+                        <outlet property="randomButton" destination="bFp-F6-3M7" id="BOX-Qt-UOi"/>
+                        <outlet property="resultLabel" destination="Gn6-2Q-xjk" id="PwP-aA-JdZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-0.80000000000000004" y="247.82608695652175"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bobaback5" width="414" height="737"/>
+    </resources>
+    <color key="tintColor" red="0.51372549019607838" green="0.81568627450980391" blue="0.87450980392156863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</document>
