@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  WeatherApp
-//
-//  Created by Angela Yu on 23/08/2015.
-//  Copyright (c) 2015 London App Brewery. All rights reserved.
-//
-
 import UIKit
 import Alamofire
 import SwiftyJSON
@@ -138,7 +130,7 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate {
         let longitude:CLLocationDegrees = CLLocationDegrees(self.bobalong)
         let regionDistance:CLLocationDistance = 300
         let coordinates = CLLocationCoordinate2DMake(latitude, longitude)
-        let regionSpan = MKCoordinateRegionMakeWithDistance(coordinates, regionDistance, regionDistance)
+        let regionSpan = MKCoordinateRegion.init(center: coordinates, latitudinalMeters: regionDistance, longitudinalMeters: regionDistance)
         let options = [MKLaunchOptionsMapCenterKey: NSValue(mkCoordinate: regionSpan.center), MKLaunchOptionsMapSpanKey: NSValue(mkCoordinateSpan: regionSpan.span)]
         let placemark = MKPlacemark(coordinate:coordinates)
         let mapItem = MKMapItem(placemark: placemark)

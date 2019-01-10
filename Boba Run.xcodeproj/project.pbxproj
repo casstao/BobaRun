@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CC213516AAE003B33C31F59 /* Pods_Boba_Run_copy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5F79B7F0C6A2E804006B4B /* Pods_Boba_Run_copy.framework */; };
+		63E28AD11B99C32400FBF6E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E28AD01B99C32400FBF6E0 /* AppDelegate.swift */; };
+		63E28AF11B99C35700FBF6E0 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E28AF01B99C35700FBF6E0 /* WeatherDataModel.swift */; };
+		63E28AF61B99C36100FBF6E0 /* ChangeCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E28AF21B99C36100FBF6E0 /* ChangeCityViewController.swift */; };
+		63E28AF71B99C36100FBF6E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E28AF31B99C36100FBF6E0 /* Images.xcassets */; };
+		63E28AF81B99C36100FBF6E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E28AF41B99C36100FBF6E0 /* Main.storyboard */; };
+		63E28AF91B99C36100FBF6E0 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E28AF51B99C36100FBF6E0 /* WeatherViewController.swift */; };
+		9744E3D2DE376FE3BB77CE88 /* Pods_Boba_Run.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52BD9C9E341E73E01C724798 /* Pods_Boba_Run.framework */; };
+		F17A34AE211CE5EB003FC9CB /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E28AF01B99C35700FBF6E0 /* WeatherDataModel.swift */; };
+		F17A34AF211CE5EB003FC9CB /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E28AF51B99C36100FBF6E0 /* WeatherViewController.swift */; };
+		F17A34B0211CE5EB003FC9CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E28AD01B99C32400FBF6E0 /* AppDelegate.swift */; };
+		F17A34B1211CE5EB003FC9CB /* ChangeCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E28AF21B99C36100FBF6E0 /* ChangeCityViewController.swift */; };
+		F17A34B3211CE5EB003FC9CB /* Pods_Boba_Run.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52BD9C9E341E73E01C724798 /* Pods_Boba_Run.framework */; };
+		F17A34B5211CE5EB003FC9CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E28AF31B99C36100FBF6E0 /* Images.xcassets */; };
+		F17A34B6211CE5EB003FC9CB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F67C4221150C42001C2E5C /* Launch Screen.storyboard */; };
+		F17A34B7211CE5EB003FC9CB /* Cosmos in Resources */ = {isa = PBXBuildFile; fileRef = F1F3F4D1211AE6FF0080445B /* Cosmos */; };
+		F17A34B8211CE5EB003FC9CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E28AF41B99C36100FBF6E0 /* Main.storyboard */; };
+		F1F3F4D2211AE6FF0080445B /* Cosmos in Resources */ = {isa = PBXBuildFile; fileRef = F1F3F4D1211AE6FF0080445B /* Cosmos */; };
+		F1F67C4021150C42001C2E5C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F67C4221150C42001C2E5C /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12213533B35C1F31301634E7 /* Pods-Boba Run.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boba Run.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Boba Run/Pods-Boba Run.debug.xcconfig"; sourceTree = "<group>"; };
+		2D5F79B7F0C6A2E804006B4B /* Pods_Boba_Run_copy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Boba_Run_copy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BD9C9E341E73E01C724798 /* Pods_Boba_Run.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Boba_Run.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F9684ABAAA91D70D46BD45F /* Pods-Boba Run copy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boba Run copy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Boba Run copy/Pods-Boba Run copy.release.xcconfig"; sourceTree = "<group>"; };
+		63E28ACB1B99C32400FBF6E0 /* Boba Run.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Boba Run.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E28ACF1B99C32400FBF6E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E28AD01B99C32400FBF6E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63E28AF01B99C35700FBF6E0 /* WeatherDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
+		63E28AF21B99C36100FBF6E0 /* ChangeCityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeCityViewController.swift; sourceTree = "<group>"; };
+		63E28AF31B99C36100FBF6E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		63E28AF41B99C36100FBF6E0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		63E28AF51B99C36100FBF6E0 /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BC358A32077F83B82E48B032 /* Pods-Boba Run.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boba Run.release.xcconfig"; path = "Pods/Target Support Files/Pods-Boba Run/Pods-Boba Run.release.xcconfig"; sourceTree = "<group>"; };
+		DC5BEBE448AA80F45510C36F /* Pods-Boba Run copy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boba Run copy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Boba Run copy/Pods-Boba Run copy.debug.xcconfig"; sourceTree = "<group>"; };
+		F17A34BD211CE5EB003FC9CB /* Boba Run copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Boba Run copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F17A34BE211CE5EB003FC9CB /* Boba Run copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Boba Run copy-Info.plist"; path = "/Users/casstao/Desktop/swift/Clima-iOS11-master/Boba Run copy-Info.plist"; sourceTree = "<absolute>"; };
+		F1F3F4D1211AE6FF0080445B /* Cosmos */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Cosmos; path = Pods/Cosmos; sourceTree = SOURCE_ROOT; };
+		F1F67C4121150C42001C2E5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
+		F1F67C442119236F001C2E5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/Launch Screen.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63E28AC81B99C32400FBF6E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9744E3D2DE376FE3BB77CE88 /* Pods_Boba_Run.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17A34B2211CE5EB003FC9CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17A34B3211CE5EB003FC9CB /* Pods_Boba_Run.framework in Frameworks */,
+				0CC213516AAE003B33C31F59 /* Pods_Boba_Run_copy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61F7445C2F39C0D15E0C97E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52BD9C9E341E73E01C724798 /* Pods_Boba_Run.framework */,
+				2D5F79B7F0C6A2E804006B4B /* Pods_Boba_Run_copy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63E28AC21B99C32400FBF6E0 = {
+			isa = PBXGroup;
+			children = (
+				63E28ACD1B99C32400FBF6E0 /* Boba Run */,
+				63E28ACC1B99C32400FBF6E0 /* Products */,
+				ECB804909DDF5AE449908695 /* Pods */,
+				61F7445C2F39C0D15E0C97E0 /* Frameworks */,
+				F17A34BE211CE5EB003FC9CB /* Boba Run copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		63E28ACC1B99C32400FBF6E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63E28ACB1B99C32400FBF6E0 /* Boba Run.app */,
+				F17A34BD211CE5EB003FC9CB /* Boba Run copy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63E28ACD1B99C32400FBF6E0 /* Boba Run */ = {
+			isa = PBXGroup;
+			children = (
+				F1F3F4D1211AE6FF0080445B /* Cosmos */,
+				F1F67C4221150C42001C2E5C /* Launch Screen.storyboard */,
+				63E28AFD1B99C38100FBF6E0 /* View */,
+				63E28AFA1B99C36D00FBF6E0 /* Model */,
+				63E28AFB1B99C37500FBF6E0 /* Controller */,
+				63E28AF31B99C36100FBF6E0 /* Images.xcassets */,
+				63E28ACE1B99C32400FBF6E0 /* Supporting Files */,
+			);
+			path = "Boba Run";
+			sourceTree = "<group>";
+		};
+		63E28ACE1B99C32400FBF6E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63E28ACF1B99C32400FBF6E0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63E28AFA1B99C36D00FBF6E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				63E28AF01B99C35700FBF6E0 /* WeatherDataModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		63E28AFB1B99C37500FBF6E0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63E28AF21B99C36100FBF6E0 /* ChangeCityViewController.swift */,
+				63E28AF51B99C36100FBF6E0 /* WeatherViewController.swift */,
+				63E28AD01B99C32400FBF6E0 /* AppDelegate.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		63E28AFD1B99C38100FBF6E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63E28AF41B99C36100FBF6E0 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		ECB804909DDF5AE449908695 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12213533B35C1F31301634E7 /* Pods-Boba Run.debug.xcconfig */,
+				BC358A32077F83B82E48B032 /* Pods-Boba Run.release.xcconfig */,
+				DC5BEBE448AA80F45510C36F /* Pods-Boba Run copy.debug.xcconfig */,
+				5F9684ABAAA91D70D46BD45F /* Pods-Boba Run copy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63E28ACA1B99C32400FBF6E0 /* Boba Run */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63E28AEA1B99C32400FBF6E0 /* Build configuration list for PBXNativeTarget "Boba Run" */;
+			buildPhases = (
+				931EC0B2CC1373DFD7DFE8CC /* [CP] Check Pods Manifest.lock */,
+				63E28AC71B99C32400FBF6E0 /* Sources */,
+				63E28AC81B99C32400FBF6E0 /* Frameworks */,
+				63E28AC91B99C32400FBF6E0 /* Resources */,
+				8DF23430A991545C58EA99B1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Boba Run";
+			productName = Clima;
+			productReference = 63E28ACB1B99C32400FBF6E0 /* Boba Run.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F17A34AB211CE5EB003FC9CB /* Boba Run copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F17A34BA211CE5EB003FC9CB /* Build configuration list for PBXNativeTarget "Boba Run copy" */;
+			buildPhases = (
+				F17A34AC211CE5EB003FC9CB /* [CP] Check Pods Manifest.lock */,
+				F17A34AD211CE5EB003FC9CB /* Sources */,
+				F17A34B2211CE5EB003FC9CB /* Frameworks */,
+				F17A34B4211CE5EB003FC9CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Boba Run copy";
+			productName = Clima;
+			productReference = F17A34BD211CE5EB003FC9CB /* Boba Run copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63E28AC31B99C32400FBF6E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "London App Brewery";
+				TargetAttributes = {
+					63E28ACA1B99C32400FBF6E0 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = Z8V566C555;
+						LastSwiftMigration = 1010;
+					};
+					F17A34AB211CE5EB003FC9CB = {
+						DevelopmentTeam = Z8V566C555;
+					};
+				};
+			};
+			buildConfigurationList = 63E28AC61B99C32400FBF6E0 /* Build configuration list for PBXProject "Boba Run" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63E28AC21B99C32400FBF6E0;
+			productRefGroup = 63E28ACC1B99C32400FBF6E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63E28ACA1B99C32400FBF6E0 /* Boba Run */,
+				F17A34AB211CE5EB003FC9CB /* Boba Run copy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63E28AC91B99C32400FBF6E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E28AF71B99C36100FBF6E0 /* Images.xcassets in Resources */,
+				F1F67C4021150C42001C2E5C /* Launch Screen.storyboard in Resources */,
+				F1F3F4D2211AE6FF0080445B /* Cosmos in Resources */,
+				63E28AF81B99C36100FBF6E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17A34B4211CE5EB003FC9CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17A34B5211CE5EB003FC9CB /* Images.xcassets in Resources */,
+				F17A34B6211CE5EB003FC9CB /* Launch Screen.storyboard in Resources */,
+				F17A34B7211CE5EB003FC9CB /* Cosmos in Resources */,
+				F17A34B8211CE5EB003FC9CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8DF23430A991545C58EA99B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Boba Run/Pods-Boba Run-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Boba Run/Pods-Boba Run-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		931EC0B2CC1373DFD7DFE8CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Boba Run-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F17A34AC211CE5EB003FC9CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Boba Run copy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63E28AC71B99C32400FBF6E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E28AF11B99C35700FBF6E0 /* WeatherDataModel.swift in Sources */,
+				63E28AF91B99C36100FBF6E0 /* WeatherViewController.swift in Sources */,
+				63E28AD11B99C32400FBF6E0 /* AppDelegate.swift in Sources */,
+				63E28AF61B99C36100FBF6E0 /* ChangeCityViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17A34AD211CE5EB003FC9CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17A34AE211CE5EB003FC9CB /* WeatherDataModel.swift in Sources */,
+				F17A34AF211CE5EB003FC9CB /* WeatherViewController.swift in Sources */,
+				F17A34B0211CE5EB003FC9CB /* AppDelegate.swift in Sources */,
+				F17A34B1211CE5EB003FC9CB /* ChangeCityViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1F67C4221150C42001C2E5C /* Launch Screen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1F67C4121150C42001C2E5C /* Base */,
+				F1F67C442119236F001C2E5C /* en */,
+			);
+			name = "Launch Screen.storyboard";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63E28AE81B99C32400FBF6E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63E28AE91B99C32400FBF6E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63E28AEB1B99C32400FBF6E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12213533B35C1F31301634E7 /* Pods-Boba Run.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z8V566C555;
+				INFOPLIST_FILE = "Boba Run/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Cass.BobaRun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		63E28AEC1B99C32400FBF6E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC358A32077F83B82E48B032 /* Pods-Boba Run.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z8V566C555;
+				INFOPLIST_FILE = "Boba Run/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Cass.BobaRun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		F17A34BB211CE5EB003FC9CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC5BEBE448AA80F45510C36F /* Pods-Boba Run copy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z8V566C555;
+				INFOPLIST_FILE = "Boba Run copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Cass.BobaRun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		F17A34BC211CE5EB003FC9CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F9684ABAAA91D70D46BD45F /* Pods-Boba Run copy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z8V566C555;
+				INFOPLIST_FILE = "Boba Run copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Cass.BobaRun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63E28AC61B99C32400FBF6E0 /* Build configuration list for PBXProject "Boba Run" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E28AE81B99C32400FBF6E0 /* Debug */,
+				63E28AE91B99C32400FBF6E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63E28AEA1B99C32400FBF6E0 /* Build configuration list for PBXNativeTarget "Boba Run" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E28AEB1B99C32400FBF6E0 /* Debug */,
+				63E28AEC1B99C32400FBF6E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F17A34BA211CE5EB003FC9CB /* Build configuration list for PBXNativeTarget "Boba Run copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17A34BB211CE5EB003FC9CB /* Debug */,
+				F17A34BC211CE5EB003FC9CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63E28AC31B99C32400FBF6E0 /* Project object */;
+}
